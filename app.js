@@ -38,7 +38,7 @@ function levelUp() {
     level++;
     h2.innerText = `Level ${level}`;
 
-    let randIndx = Math.floor(Math.random() * 4); // fixed typo (letvrandIndx -> randIndx, also should be 4)
+    let randIndx = Math.floor(Math.random() * 4); 
     let randomBtn = btns[randIndx];
     let randomBtnElement = document.querySelector(`.${randomBtn}`);
     gameSeq.push(randomBtn);
